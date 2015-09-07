@@ -1,3 +1,9 @@
+python-xstatic-bootswatch (3.3.5.2-2) experimental; urgency=medium
+
+  * Add debianize.patch .
+
+ -- Ivan Udovichenko <iudovichenko@mirantis.com>  Tue, 08 Sep 2015 2:25:05 +0300
+
 python-xstatic-bootswatch (3.3.5.2-1) experimental; urgency=medium
 
   * Initial release. (Closes: #XXXXXX)
