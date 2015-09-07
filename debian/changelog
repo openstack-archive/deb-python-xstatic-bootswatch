@@ -1,0 +1,5 @@
+python-xstatic-bootswatch (3.3.5.2-1) experimental; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Ivan Udovichenko <iudovichenko@mirantis.com>  Tue, 08 Sep 2015 0:34:38 +0300

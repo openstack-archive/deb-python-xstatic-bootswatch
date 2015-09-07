@@ -1,0 +1,48 @@
+Source: python-xstatic-bootswatch
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+           Ivan Udovichenko <iudovichenko@mirantis.com>,
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-setuptools,
+               python-all,
+               python3-setuptools,
+               python3-all,
+Standards-Version: 3.9.6
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-xstatic-bootswatch.git
+Vcs-Git: git://anonscm.debian.org/openstack/python-xstatic-bootswatch.git
+Homepage: https://github.com/stackforge/xstatic-bootswatch
+
+Package: python-xstatic-bootswatch
+Architecture: all
+Depends: libjs-bootswatch,
+         python-xstatic-roboto-fontface,
+         ${python:Depends},
+         ${misc:Depends},
+Description: Bootswatch XStatic support - Python 2.7
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ This package contains the Python 2.7 module support for the Bootswatch.
+ See the description of the libjs-bootswatch package.
+
+Package: python3-xstatic-bootswatch
+Architecture: all
+Depends: libjs-bootswatch,
+         python3-xstatic-roboto-fontface,
+         ${python3:Depends},
+         ${misc:Depends},
+Description: Bootswatch XStatic support - Python 3.x
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ This package contains the Python 3.x module support for the Bootswatch.
+ See the description of the libjs-bootswatch package.
