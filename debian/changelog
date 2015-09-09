@@ -1,6 +1,10 @@
 python-xstatic-bootswatch (3.3.5.2-2) experimental; urgency=medium
 
+<<<<<<< HEAD
   * Add patch replace-urls-with-local-path-to-roboto-fonts.patch .
+=======
+  * Add debianize.patch .
+>>>>>>> b383ad843de9c482db108229cdc8abb905ce2ab7
 
  -- Ivan Udovichenko <iudovichenko@mirantis.com>  Tue, 08 Sep 2015 2:25:05 +0300
 

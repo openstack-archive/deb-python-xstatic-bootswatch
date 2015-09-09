@@ -1,0 +1,30 @@
+From a91aee5b7039b6e0139b214bcedff03b899c5870 Mon Sep 17 00:00:00 2001
+From: Ivan Udovichenko <iudovichenko@mirantis.com>
+Date: Tue, 8 Sep 2015 23:19:41 +0300
+Subject: [PATCH] Debianize
+
+---
+ xstatic/pkg/bootswatch/__init__.py | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/xstatic/pkg/bootswatch/__init__.py b/xstatic/pkg/bootswatch/__init__.py
+index 5cbc091..7d99ea9 100644
+--- a/xstatic/pkg/bootswatch/__init__.py
++++ b/xstatic/pkg/bootswatch/__init__.py
+@@ -37,10 +37,10 @@ HOMEPAGE = 'http://bootswatch.com'
+ # this refers to all files:
+ LICENSE = '(same as %s)' % DISPLAY_NAME
+ 
+-from os.path import join, dirname
+-BASE_DIR = join(dirname(__file__), 'data')
++#from os.path import join, dirname
++#BASE_DIR = join(dirname(__file__), 'data')
+ # linux package maintainers just can point to their file locations like this:
+-#BASE_DIR = '/usr/share/javascript/' + NAME
++BASE_DIR = '/usr/share/javascript/' + NAME
+ 
+ # location of the Javascript file that's the entry point for this package, if
+ # one exists, relative to BASE_DIR
+-- 
+2.1.4
+
