@@ -6,10 +6,12 @@ Uploaders: Thomas Goirand <zigo@debian.org>,
            Ivan Udovichenko <iudovichenko@mirantis.com>,
 Build-Depends: debhelper (>= 9),
                dh-python,
-               python-setuptools,
                python-all,
-               python3-setuptools,
+               python-setuptools,
                python3-all,
+               python3-setuptools,
+Build-Conflicts: python-xstatic,
+                 python3-xstatic,
 Standards-Version: 3.9.6
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-xstatic-bootswatch.git
 Vcs-Git: git://anonscm.debian.org/openstack/python-xstatic-bootswatch.git
@@ -18,9 +20,10 @@ Homepage: https://github.com/stackforge/xstatic-bootswatch
 Package: python-xstatic-bootswatch
 Architecture: all
 Depends: libjs-bootswatch,
+         python-xstatic,
          python-xstatic-roboto-fontface,
-         ${python:Depends},
          ${misc:Depends},
+         ${python:Depends},
 Description: Bootswatch XStatic support - Python 2.7
  XStatic is a Python web development tool for handling required static data
  files from external projects, such as CSS, images, and JavaScript. It provides
@@ -34,9 +37,10 @@ Description: Bootswatch XStatic support - Python 2.7
 Package: python3-xstatic-bootswatch
 Architecture: all
 Depends: libjs-bootswatch,
+         python3-xstatic,
          python3-xstatic-roboto-fontface,
-         ${python3:Depends},
          ${misc:Depends},
+         ${python3:Depends},
 Description: Bootswatch XStatic support - Python 3.x
  XStatic is a Python web development tool for handling required static data
  files from external projects, such as CSS, images, and JavaScript. It provides
