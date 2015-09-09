@@ -19,6 +19,7 @@ override_dh_install:
 			--root $(CURDIR)/debian/python3-xstatic-bootswatch; \
 	done
 	rm -rf $(CURDIR)/debian/python*-xstatic-bootswatch/usr/lib/python*/dist-packages/*.pth
+	rm -rf $(CURDIR)/debian/python*-xstatic-bootswatch/usr/lib/python*/dist-packages/xstatic/pkg/bootswatch/data
 
 override_dh_auto_test:
 ifeq (,$(findstring nocheck, $(DEB_BUILD_OPTIONS)))
