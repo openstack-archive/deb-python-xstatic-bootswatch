@@ -1,6 +1,7 @@
 python-xstatic-bootswatch (3.3.5.2-2) unstable; urgency=medium
 
   * Uploading to unstable.
+  * Fixed watch file to use github tag instead of PyPi.
 
  -- Thomas Goirand <zigo@debian.org>  Fri, 16 Oct 2015 12:25:17 +0000
 
