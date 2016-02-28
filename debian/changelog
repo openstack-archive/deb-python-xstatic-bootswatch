@@ -1,3 +1,9 @@
+python-xstatic-bootswatch (3.3.5.2-3) UNRELEASED; urgency=medium
+
+  * Fixed VCS URLs (https).
+
+ -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:53:54 +0100
+
 python-xstatic-bootswatch (3.3.5.2-2) unstable; urgency=medium
 
   * Uploading to unstable.
