@@ -1,6 +1,7 @@
 python-xstatic-bootswatch (3.3.5.2-3) UNRELEASED; urgency=medium
 
   * Fixed VCS URLs (https).
+  * d/rules: Changed UPSTREAM_GIT to new URL
 
  -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:53:54 +0100
 
