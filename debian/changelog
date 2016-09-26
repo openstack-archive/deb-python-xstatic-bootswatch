@@ -2,6 +2,8 @@ python-xstatic-bootswatch (3.3.5.2-3) UNRELEASED; urgency=medium
 
   * Fixed VCS URLs (https).
   * d/rules: Changed UPSTREAM_GIT to new URL
+  * d/s/options: extend-diff-ignore of .gitreview
+  * d/control: Using OpenStack's Gerrit as VCS URLs.
 
  -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:53:54 +0100
 
